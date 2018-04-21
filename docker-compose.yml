@@ -21,7 +21,7 @@ services:
     networks:
       - wekan-tier
     ports:
-      - 8081:80
+      - 80:80
     environment:
       - MONGO_URL=mongodb://wekandb:27017/wekan
       - ROOT_URL=http://localhost
